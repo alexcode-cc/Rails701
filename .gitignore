@@ -35,4 +35,4 @@
 /config/master.key
 
 !/vendor/javascript/.keep
-~/app/assets/images/.keep
+!/app/assets/images/.keep
