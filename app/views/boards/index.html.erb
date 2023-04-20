@@ -1,0 +1,19 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Boards</h1>
+
+<div id="boards">
+  <% @boards.each do |board| %>
+    <%= render board %>
+    <p>
+      <%= link_to "Show this board", board %>
+    </p>
+  <% end %>
+</div>
+
+<br/>
+<div>
+<%= link_to 'New Board', new_board_path %>
+<%= link_to 'Home', root_path %>
+<%= link_to 'Back', url_for(:back) %>
+</div>

@@ -12,6 +12,8 @@ gem "sprockets-rails"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
+gem 'faker', '~> 3.2.0'
+
 # Use Capistrano for deployment
 gem 'capistrano', '>= 3.17.2'
 gem 'capistrano-rails', '>= 1.6.2'
