@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/alexcode-cc/Rails701/compare/0.2.0...0.2.1) (2023-04-20)
+
+
+### Features
+
+* use action text ([698b40e](https://github.com/alexcode-cc/Rails701/commit/698b40e8774b917a6183dc90c23fac21f43d1d9b))
+
+
+
 # [0.2.0](https://github.com/alexcode-cc/Rails701/compare/0.1.1...0.2.0) (2023-04-20)
 
 
