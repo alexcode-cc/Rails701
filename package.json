@@ -1,7 +1,7 @@
 {
   "name": "rails701",
   "private": "true",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/alexcode-cc/Rails701.git"
@@ -13,5 +13,9 @@
     "changelog:init:angular": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "changelog:check:angular": "conventional-changelog -p angular",
     "changelog:help": "conventional-changelog --help"
+  },
+  "dependencies": {
+    "@rails/actiontext": "^7.0.4-3",
+    "trix": "^2.0.4"
   }
 }
