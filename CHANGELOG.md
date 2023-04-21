@@ -1,3 +1,19 @@
+## [0.2.2](https://github.com/alexcode-cc/Rails701/compare/0.2.1...0.2.2) (2023-04-21)
+
+
+### Bug Fixes
+
+* tail log task ([7d18593](https://github.com/alexcode-cc/Rails701/commit/7d1859382bf6cfa1be1b62807dc7497b516ecf25))
+
+
+### Features
+
+* cap task for tail rails log ([b78409c](https://github.com/alexcode-cc/Rails701/commit/b78409cd0ab411b2c35bd2ff80f175f9f315113a))
+* use lcoal-time ([09b8759](https://github.com/alexcode-cc/Rails701/commit/09b87598235895dea71279dce97df671200a0746))
+* use sassc ([28420c0](https://github.com/alexcode-cc/Rails701/commit/28420c048f26acf8a3727e6df91d9dcae20eaf66))
+
+
+
 ## [0.2.1](https://github.com/alexcode-cc/Rails701/compare/0.2.0...0.2.1) (2023-04-20)
 
 
