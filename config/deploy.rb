@@ -59,9 +59,9 @@ namespace :deploy do
         unless test("[ -f #{shared_path}/config/database.yml ]")
           upload! 'config/database.yml', "#{shared_path}/config/database.yml"
         end
-        #unless test("[ -f #{shared_path}/vendor/javascript/local-time.js ]")
-        #  upload! 'vendor/javascript/local-time.js', "#{shared_path}/vendor/javascript/local-time.js"
-        #end
+        unless test("[ -f #{shared_path}/vendor/javascript/local-time.js ]")
+          upload! 'vendor/javascript/local-time.js', "#{shared_path}/vendor/javascript/local-time.js"
+        end
       end
     end
   end
