@@ -47,7 +47,7 @@ namespace :logs do
   end
 end
 
-# upload secret linked files
+# upload linked files
 append :linked_files, 'config/database.yml', 'config/master.key'
 namespace :deploy do
   namespace :check do
@@ -59,6 +59,9 @@ namespace :deploy do
         unless test("[ -f #{shared_path}/config/database.yml ]")
           upload! 'config/database.yml', "#{shared_path}/config/database.yml"
         end
+        #unless test("[ -f #{shared_path}/vendor/javascript/local-time.js ]")
+        #  upload! 'vendor/javascript/local-time.js', "#{shared_path}/vendor/javascript/local-time.js"
+        #end
       end
     end
   end
